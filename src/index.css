@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgba(0,0,0,0.6);
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin-left: 60px;
+  font-size: 14px;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.icon-sidebar {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  cursor: pointer;
+  fill: rgba(0,0,0,0.6);
+}
+
+.animate {
+  transition: all 0.5s;
+}
