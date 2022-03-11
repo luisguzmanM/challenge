@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/challenge/static/css/main.964c6851.css",
+    "main.js": "/challenge/static/js/main.3fa9b374.js",
+    "static/media/photo.jpg": "/challenge/static/media/photo.97a1a130738a18f8bba1.jpg",
+    "static/media/student.jpg": "/challenge/static/media/student.bb6c4c848783e1b57cb5.jpg",
+    "static/media/free_crown.png": "/challenge/static/media/free_crown.de5831495d85a6323b5c.png",
+    "static/media/asignar_outline_24px.svg": "/challenge/static/media/asignar_outline_24px.895eca62520a7d9a536e7e2d58527816.svg",
+    "static/media/modulo-tesoreria.svg": "/challenge/static/media/modulo-tesoreria.41f562418d53d84d3213439e2a44dfd8.svg",
+    "static/media/notification_24px.svg": "/challenge/static/media/notification_24px.dae69b6a8d484a3fe3e19afd1056e611.svg",
+    "static/media/created_24px.svg": "/challenge/static/media/created_24px.553b89c6b628f790e8718fe876925da4.svg",
+    "static/media/more_vertical_24px.svg": "/challenge/static/media/more_vertical_24px.27afb86372ada13a7b255c845fe9e78c.svg",
+    "static/media/transferencia_outline_24px.svg": "/challenge/static/media/transferencia_outline_24px.413a875f7b201e4982826b235c5fffcf.svg",
+    "index.html": "/challenge/index.html",
+    "static/media/chat_24px.svg": "/challenge/static/media/chat_24px.4d2c35d64d9ad1bf8510bf9e138c93ad.svg",
+    "static/media/modulo-matricula.svg": "/challenge/static/media/modulo-matricula.6a57aad8a6cc84ae226202938f4bfa8b.svg",
+    "static/media/modulo-dashboard.svg": "/challenge/static/media/modulo-dashboard.79fb7530ff402136351232e2be2b3855.svg",
+    "static/media/modulo-talentohumano.svg": "/challenge/static/media/modulo-talentohumano.013a832d32305d3eb1bd5040a08ab0a7.svg",
+    "static/media/menu_24px.svg": "/challenge/static/media/menu_24px.846198be3f3d692b648347e894296fbf.svg",
+    "static/media/modulo-noticias.svg": "/challenge/static/media/modulo-noticias.a96b355505a3b4a50db4c1092b5c0253.svg",
+    "static/media/sort_24px.svg": "/challenge/static/media/sort_24px.cf91756bdf314983020a472d1d996ee1.svg",
+    "static/media/modulo-planif-institu.svg": "/challenge/static/media/modulo-planif-institu.77b5bc2e48dec1e1cfdc9f6b5966ec5d.svg",
+    "static/media/modulo-configuration.svg": "/challenge/static/media/modulo-configuration.3d19eac7f8ea65447eba48787e90992c.svg",
+    "static/media/modulo-agenda.svg": "/challenge/static/media/modulo-agenda.12bd35a96ed3bd690a4c32e316a6353f.svg",
+    "static/media/modulo-gestion-academ.svg": "/challenge/static/media/modulo-gestion-academ.c1be5e9db37d8de9d5f9970b1508bfe4.svg",
+    "static/media/left_24px.svg": "/challenge/static/media/left_24px.6ef24abb06be52ba7f16120613863601.svg",
+    "static/media/down_24px.svg": "/challenge/static/media/down_24px.c0ee0062414ce07da7228768f005ffdc.svg",
+    "static/media/modulo-suscription.svg": "/challenge/static/media/modulo-suscription.0672c657bc29796d3a08bb63f02693f5.svg",
+    "static/media/trash_16px.svg": "/challenge/static/media/trash_16px.5ab49a478b314dd418fc099640150a9b.svg",
+    "static/media/modulo-program-curricu.svg": "/challenge/static/media/modulo-program-curricu.31ba5a55fd9fb76809f7ed9527adf928.svg",
+    "main.964c6851.css.map": "/challenge/static/css/main.964c6851.css.map",
+    "main.3fa9b374.js.map": "/challenge/static/js/main.3fa9b374.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964c6851.css",
+    "static/js/main.3fa9b374.js"
+  ]
+}
