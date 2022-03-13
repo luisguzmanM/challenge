@@ -3,11 +3,10 @@ import styled from 'styled-components';
 import { ReactComponent as SortMenu } from '../icons/sort_24px.svg';
 import { ReactComponent as LeftIcon } from '../icons/left_24px.svg';
 import { ReactComponent as CreatedIcon } from '../icons/created_24px.svg';
-import Container from '../elements/Container';
 
 const Buscador = () => {
   return (
-    <Container contbusc>
+    <Container>
 
       <Wrapper>
         <InputText type='text' placeholder='Buscar Estudiante' />
@@ -92,6 +91,16 @@ const Buscador = () => {
   );
 }
 
+const Container = styled.div`
+  width: 250px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  &>p {
+
+  }
+`;
+
 const Wrapper = styled.div`
   width: 100%;
   height: 40px;
@@ -103,16 +112,15 @@ const Wrapper = styled.div`
 const InputText = styled.input`
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #DDD;
   outline: none;
   padding: 5px 0px 5px 0px;
-  width: 180px;
+  width: 220px;
 `;
 
 const InputSelect = styled.select`
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid black;
   outline: none;
   padding: 5px 0px 5px 0px;
   width: 180px;

@@ -72,7 +72,6 @@ const Panel = ({ sidebar }) => {
           <Photo src={Student} alt='Student'/><Photo src={Student} alt='Student'/>
         </Parents>
 
-
       </ContLeft>
       <ContRight>
         
@@ -83,11 +82,11 @@ const Panel = ({ sidebar }) => {
 
 const Div = styled.div`
   width: ${({ sidebar }) => (sidebar ? '65%' : '70%')}; 
-  height: 540px;
+  height: 520px;
   border-radius: 5px;
   box-shadow: 0 0 10px 2px rgba(0,0,0,0.15);
   position: relative;
-  top: -50px;
+  top: -660px;
   right: -300px;
   z-index: 30;
   background-color: white;
@@ -97,7 +96,7 @@ const Div = styled.div`
 `;
 
 const ContLeft = styled.div`
-  width: 30%;
+  min-width: 270px;
   height: 100%;
   border-right: 2px solid #ddd;
   padding: 10px 15px;
@@ -161,7 +160,7 @@ const Matricula = styled.div`
 const College = styled.div`
   width: 100%;
   display: flex;
-  margin: 10px 0;
+  margin: 5px 0;
 `;
 
 const Text = styled.div`
@@ -177,17 +176,17 @@ const Icons = styled.div`
 
 const Brothers = styled.div`
   width: 100%;
-  margin-top: 10px;
+  margin-top: 0px;
   p{
-    margin: 8px 0;
+    margin: 5px 0;
   }
 `;
 
 const Parents = styled.div`
   width: 100%;
-  margin-top: 10px;
+  margin-top: 0px;
   p{
-    margin: 8px 0;
+    margin: 5px 0;
   }
 `;
 

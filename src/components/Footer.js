@@ -23,7 +23,7 @@ const Container = styled.div`
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  z-index: -10;
+  z-index: 10;
   background-color: #F4F8F9;
   display: flex;
   justify-content: center;

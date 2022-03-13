@@ -5,5 +5,5 @@ const Photo = styled.img`
   border-radius: 50%;
   cursor: pointer;
 `;
- 
+
 export default Photo;
