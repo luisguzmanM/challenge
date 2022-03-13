@@ -85,9 +85,9 @@ const Div = styled.div`
   height: 520px;
   border-radius: 5px;
   box-shadow: 0 0 10px 2px rgba(0,0,0,0.15);
-  position: relative;
-  top: -660px;
-  right: -300px;
+  position: absolute;
+  top: 60px;
+  right: 70px;
   z-index: 30;
   background-color: white;
   transition: 0.5s;
