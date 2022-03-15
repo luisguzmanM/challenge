@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/challenge/static/css/main.c34eff33.css",
-    "main.js": "/challenge/static/js/main.ab9d7791.js",
+    "main.css": "/challenge/static/css/main.b9f85310.css",
+    "main.js": "/challenge/static/js/main.a06f6348.js",
     "static/media/photo.jpg": "/challenge/static/media/photo.97a1a130738a18f8bba1.jpg",
     "static/media/student.jpg": "/challenge/static/media/student.bb6c4c848783e1b57cb5.jpg",
     "static/media/free_crown.png": "/challenge/static/media/free_crown.de5831495d85a6323b5c.png",
@@ -28,11 +28,11 @@
     "static/media/modulo-suscription.svg": "/challenge/static/media/modulo-suscription.0672c657bc29796d3a08bb63f02693f5.svg",
     "static/media/trash_16px.svg": "/challenge/static/media/trash_16px.5ab49a478b314dd418fc099640150a9b.svg",
     "static/media/modulo-program-curricu.svg": "/challenge/static/media/modulo-program-curricu.31ba5a55fd9fb76809f7ed9527adf928.svg",
-    "main.c34eff33.css.map": "/challenge/static/css/main.c34eff33.css.map",
-    "main.ab9d7791.js.map": "/challenge/static/js/main.ab9d7791.js.map"
+    "main.b9f85310.css.map": "/challenge/static/css/main.b9f85310.css.map",
+    "main.a06f6348.js.map": "/challenge/static/js/main.a06f6348.js.map"
   },
   "entrypoints": [
-    "static/css/main.c34eff33.css",
-    "static/js/main.ab9d7791.js"
+    "static/css/main.b9f85310.css",
+    "static/js/main.a06f6348.js"
   ]
 }
