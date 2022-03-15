@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import Student from '../icons/student.jpg';
 import Photo from '../elements/Photo';
 import {ReactComponent as MoreTableIcon} from '../icons/asignar_outline_24px.svg';
-import Button from '../elements/Button';
 import {ReactComponent as TransfIcon} from '../icons/transferencia_outline_24px.svg';
 import {ReactComponent as TrashIcon} from '../icons/trash_16px.svg';
+import Button from '../elements/Button';
 
 const Panel = ({ sidebar }) => {
   return (
@@ -62,38 +62,81 @@ const Panel = ({ sidebar }) => {
 
         <span>Histórico de aulas</span>
 
-        <Brothers>
+        <Parents>
           <p>Hermanos(as)</p>
-          <Photo src={Student} alt='Student'/><Photo src={Student} alt='Student'/>
-        </Brothers>
+          <div>
+            <Photo src={Student} alt='Student'/>
+            <Photo src={Student} alt='Student'/>
+          </div>
+        </Parents>
 
         <Parents>
           <p>Familiares</p>
-          <Photo src={Student} alt='Student'/><Photo src={Student} alt='Student'/>
+          <div>
+            <Photo src={Student} alt='Student'/>
+            <Photo src={Student} alt='Student'/>
+          </div>
         </Parents>
 
       </ContLeft>
       <ContRight>
-        
+        <div>
+          <ul>
+            <li><a href='#'>Informacion</a></li>
+            <li><a href='#'>Ficha Medica</a></li>
+            <li><a href='#'>Ficha Psicologica</a></li>
+            <li><a href='#'>Compromisos</a></li>
+          </ul>
+        </div>
+        <form>
+          <div>
+            <select>
+              <option selected value=''>Personal</option>
+              <option value='option1'>Option 01</option>
+              <option value='option2'>Option 02</option>
+            </select>
+          </div>
+          <div>
+            <select>
+              <option selected value=''>Contacto</option>
+              <option value='option1'>Option 01</option>
+              <option value='option2'>Option 02</option>
+            </select>
+          </div>
+          <div>
+            <select>
+              <option selected value=''>Datos de Privacidad</option>
+              <option value='option1'>Option 01</option>
+              <option value='option2'>Option 02</option>
+            </select>
+          </div>
+          <div>
+            <select>
+              <option selected value=''>Adicional</option>
+              <option value='option1'>Option 01</option>
+              <option value='option2'>Option 02</option>
+            </select>
+          </div>
+        </form>
       </ContRight>
     </Div>
   );
 }
 
 const Div = styled.div`
-  width: ${({ sidebar }) => (sidebar ? '65%' : '70%')}; 
-  height: 520px;
+  width: ${({ sidebar }) => (sidebar ? '52%' : '68%')}; 
+  height: 540px;
   border-radius: 5px;
   box-shadow: 0 0 10px 2px rgba(0,0,0,0.15);
   position: absolute;
-  top: 60px;
-  right: 70px;
-  z-index: 30;
+  top: -35px;
+  left: 280px;
   background-color: white;
   transition: 0.5s;
+  line-height: 23px;
   display: flex;
-  line-height: 25px;
-`;
+  z-index: 20;
+  `;
 
 const ContLeft = styled.div`
   min-width: 270px;
@@ -105,18 +148,56 @@ const ContLeft = styled.div`
     margin-top: 15px;
   }
   &>span{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    margin: 10px 0;
     border: 1px solid #FFD600;
     border-radius: 25px;
-    padding: 7px 12px;
     color: #FFD600;
     font-weight: bold;
+    justify-content: center;
+    align-items: center;
   }
 `;
 
 const ContRight = styled.div`
-  width: 70%;
+  width: 100%;
   height: 100%;
-  padding: 10px 15px;
+  div {
+    width: 100%;
+    height: 60px;
+    padding: 0px 0 0 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #DDD;
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        height: 100%;
+        margin-right: 20px;
+        a{
+          text-decoration: none;
+          &:hover {
+            color: #FFD600;
+          }
+        }
+      }
+    }
+  }
+  form {
+    div {
+      width: 100%;
+      padding: 20px;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+      select {
+        border: none;
+        outline: none;
+        width: 100%;
+      }
+    }
+  }
 `;
 
 const Profile = styled.div`
@@ -165,6 +246,7 @@ const College = styled.div`
 
 const Text = styled.div`
   width: 70%;
+  margin: 10px 0;
 `;
 
 const Icons = styled.div`
@@ -174,19 +256,17 @@ const Icons = styled.div`
   justify-content: space-around;
 `;
 
-const Brothers = styled.div`
+const Parents = styled.div`
   width: 100%;
-  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
   p{
     margin: 5px 0;
   }
-`;
-
-const Parents = styled.div`
-  width: 100%;
-  margin-top: 0px;
-  p{
-    margin: 5px 0;
+  div {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
   }
 `;
 

@@ -16,6 +16,7 @@ const Button = styled.button`
   align-items: center;
   position: relative;
   cursor: pointer;
+  transition: all 0.5s;
 
   ${props => props.minifab && css`
     background-color: #FFF;

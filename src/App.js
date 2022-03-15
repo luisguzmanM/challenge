@@ -1,8 +1,8 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Menu from './components/Menu';
 import Header from './components/Header';
 import Main from './components/Main';
-import Panel from './components/Panel';
+import Footer from './components/Footer';
 import './index.css';
 
 const App = () => {
@@ -11,12 +11,12 @@ const App = () => {
 
   return (
     <>
-      <Menu sidebar={sidebar} setSidebar={setSidebar}/>
+      <Menu sidebar={sidebar} setSidebar={setSidebar} />
       <Header />
-      <Main />
-      <Panel sidebar={sidebar}/>
+      <Main sidebar={sidebar}/>
+      <Footer />
     </>
   );
 }
- 
+
 export default App;

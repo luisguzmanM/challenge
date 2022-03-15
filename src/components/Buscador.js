@@ -14,7 +14,7 @@ const Buscador = () => {
         <LeftIcon className='icon-sidebar'/>
       </Wrapper>
 
-      <p>Filtro: <span>Familiares</span></p>
+      <p>Filtro: Familiares</p>
       <span>Busca a tus estudiantes</span>
 
       <Wrapper>
@@ -92,12 +92,19 @@ const Buscador = () => {
 }
 
 const Container = styled.div`
-  width: 250px;
+  width: 280px;
   position: relative;
-  top: 20px;
-  left: 20px;
+  top: 0px;
+  left: 0px;
+  padding: 20px;
   &>p {
-
+    
+  }
+  &>span {
+    padding: 0;
+    display: block;
+    text-align: center;
+    margin: 15px auto;
   }
 `;
 
@@ -107,6 +114,8 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
 `;
 
 const InputText = styled.input`
@@ -132,14 +141,14 @@ const InputOptions = styled.div`
   border: 1px solid rgba(0,0,0,0.1);
   border-radius: 10px;
   margin: auto;
-  margin: 10px 0;
+  margin: 20px 0;
+  padding: 0 20px 0 20px;
   select {
     width: 100%;
     height: 100%;
     outline: none;
     border: none;
     border-radius: 10px;
-    padding: 10px;
     background-color: transparent;
   }
 `;

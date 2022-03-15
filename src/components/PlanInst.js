@@ -15,7 +15,9 @@ const PlanInst = ({ title, active, setActive }) => {
           <p>{title}</p>
         </Container>
         <Container small>
-          <DownArrowIcon className='icon-sidebar' onClick={() => setActive(title)} />
+          {(active === title) ? <DownArrowIcon className='icon-sidebar rotate' onClick={() => setActive(title)} />
+          : <DownArrowIcon className='icon-sidebar' onClick={() => setActive(title)} />
+          }
         </Container>
       </Container>
       <Container moreOpt className={(active === title ? "show" : "hidden")}>

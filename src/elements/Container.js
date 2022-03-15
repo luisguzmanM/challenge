@@ -30,7 +30,7 @@ const Container = styled.div`
     width: 100%;
     height: 0;
     justify-content: flex-start;
-    background-color: transparent;
+    background-color: #EBEBEB;
   `}
 `;
 

@@ -18,7 +18,7 @@ const Footer = () => {
 
 const Container = styled.div`
   width: 600px;
-  height: 30px;
+  height: 15px;
   position: fixed;
   bottom: 0;
   left: 50%;
@@ -76,8 +76,21 @@ const Container = styled.div`
         left: 382px;
         width: 13px;
         height: 13px;
-        background-color: #3F51B5;
         border-radius: 50%;
+        background-color: #3F51B5;
+      }
+    }
+    p:nth-child(6) {
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 518px;
+        width: 13px;
+        height: 13px;
+        background-color: transparent;
+        border-radius: 50%;
+        border: 1px solid black;
       }
     }
   }

@@ -28,7 +28,7 @@ const Menu = ({sidebar, setSidebar}) => {
       </SidebarSection>
 
       <SidebarSection>
-        <Profile name='John Smith' profession='Promotor'/>
+        <Profile name='John Smith' profession='Promotor'/> 
       </SidebarSection>
 
       <SidebarMenuSection>
@@ -65,9 +65,13 @@ const Sidebar = styled.nav`
   top: 0;
   left: 0;
   border-right: 1px solid rgba(0,0,0,0.1);
-  overflow: hidden;
+  overflow-x: hidden;
   transition: 0.5s;
   z-index: 40;
+  background-color: white;
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
 `;
 
 const SidebarSection = styled.section`
