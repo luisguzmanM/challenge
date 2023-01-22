@@ -1,4 +1,5 @@
 # challenge
-challenge para trabajar como maquetador web
+
+Challenge to work as a HTML/CSS developer
 
 <a href="https://luisguzmanm.github.io/challenge/">DEMO</a>
